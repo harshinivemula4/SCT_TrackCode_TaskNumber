@@ -1,4 +1,4 @@
-/* Reset & Base Styles */
+
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
@@ -7,7 +7,7 @@ body {
   background-color: #f9f9f9;
 }
 
-/* Navbar */
+
 nav {
   position: fixed;
   top: 0;
@@ -117,13 +117,12 @@ nav ul li a.active {
   transform: scale(1.05);
 }
 
-/* Typing animation */
+
 @keyframes typing {
   0%, 100% { width: 0ch; }
   40%, 60% { width: 22ch; }
 }
 
-/* Other Sections */
 section {
   min-height: 100vh;
   display: flex;
@@ -168,7 +167,7 @@ section {
   padding: 0;
 }
 
-/* Contact Form */
+
 form {
   display: flex;
   flex-direction: column;
@@ -202,7 +201,6 @@ form button:hover {
   background-color: #005fa3;
 }
 
-/* Footer */
 footer {
   background-color: #f1f1f1;
   text-align: center;
@@ -211,7 +209,6 @@ footer {
   font-size: 14px;
 }
 
-/* Scroll to Top */
 #scrollTopBtn {
   position: fixed;
   bottom: 30px;
@@ -226,7 +223,6 @@ footer {
   font-size: 18px;
 }
 
-/* Responsive */
 @media (max-width: 768px) {
   nav {
     flex-direction: column;
