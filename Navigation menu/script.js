@@ -1,4 +1,4 @@
-// Scroll Effects for Navbar and Active Links
+
 window.addEventListener("scroll", () => {
   const navbar = document.getElementById("navbar");
   navbar.classList.toggle("scrolled", window.scrollY > 50);
@@ -22,17 +22,15 @@ window.addEventListener("scroll", () => {
     }
   });
 
-  // Scroll-to-top button toggle
   document.getElementById("scrollTopBtn").style.display =
     window.scrollY > 300 ? "block" : "none";
 });
 
-// Scroll-to-top functionality
+
 document.getElementById("scrollTopBtn").addEventListener("click", () => {
   window.scrollTo({ top: 0, behavior: "smooth" });
 });
 
-// Contact Form Validation
 document.getElementById("contactForm").addEventListener("submit", function (e) {
   e.preventDefault();
 
